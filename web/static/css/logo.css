@@ -1,0 +1,15 @@
+
+.White_1_ {
+    opacity: 0;
+    transition: opacity .3s ease-in;
+}
+
+.Square:hover ~ .White_1_,
+.Dotted:hover ~ .White_1_,
+.G_2_:hover ~ .White_1_ {
+    opacity: 100;
+}
+
+svg {
+    margin:auto;
+}
